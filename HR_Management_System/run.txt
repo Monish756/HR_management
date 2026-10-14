@@ -1,0 +1,16 @@
+STEP 1: Install Java (JDK)
+
+STEP 2: Install MySQL
+
+STEP 3: Open MySQL Workbench and run setup.sql file
+
+STEP 4: Open HRManagementSystem.java and update password:
+static final String PASSWORD = "your_mysql_password";
+
+STEP 5: Open Command Prompt in project folder
+
+STEP 6: Compile:
+javac -cp ".;mysql-connector-j.jar" HRManagementSystem.java
+
+STEP 7: Run:
+java -cp ".;mysql-connector-j.jar" HRManagementSystem
